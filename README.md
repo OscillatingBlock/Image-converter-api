@@ -75,14 +75,6 @@ curl -X POST http://localhost:8080/invert -F "file=@image.jpg" -o inverted_image
 curl -X POST http://localhost:8080/apply-filter -F "file=@image.jpg" -F "filter_name=grayscale" -F "intensity=20" -o grayscale_image.jpg
 ```
 
-## Testing
-
-Run the test script to verify all endpoints:
-```bash
-chmod +x test_image_converter.sh
-./test_image_converter.sh
-```
-Outputs are saved in the `test_outputs` folder.
 
 ## Requirements
 
