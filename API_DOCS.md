@@ -1,4 +1,5 @@
 
+
 # ImageConverter API Documentation
 
 This document provides details for frontend developers integrating with the `imageConverter` API, a Go-based REST API for image processing. The API supports image conversion, cropping, fitting to square, color inversion, and applying filters (grayscale, blur). It runs on `http://localhost:8080` by default.
